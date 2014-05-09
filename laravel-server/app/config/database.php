@@ -55,7 +55,8 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'database',
+			'unix_socket' => '/tmp/mysql.sock',
+			'database'  => 'innovare',
 			'username'  => 'root',
 			'password'  => '',
 			'charset'   => 'utf8',
